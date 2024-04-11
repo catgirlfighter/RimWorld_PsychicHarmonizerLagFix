@@ -1,0 +1,6 @@
+1.0.3
+- updated for 1.5. Didn't test tho.
+
+1.0.2
+- 1.4 So funny story. I thought I've commited changes 10 months ago and kinda actually didn't? Can you imagine that? Me neither. What actually happened is at some point I've lost ALL sources of my mods. I did reserve most of them on github, but this wasn't one of them. I was too lazy to recreate that mod (or reverse from dll), so making a new version took quite awhile... Anyway, just about a year later I've finally did it. So, all good what ends good, right?
+- mostly without changes. Had to adjust some methods due to minor changes in the base classes;

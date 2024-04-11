@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThoughtDef[thoughtClass="Thought_PsychicHarmonizer"]</xpath>
+			</li>
+				
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[thoughtClass="Thought_PsychicHarmonizer"]/thoughtClass</xpath>
+				<value><thoughtClass>PsychicHarmonizerLagFix.Thought_PsychicHarmonizerCached</thoughtClass></value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
